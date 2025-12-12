@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 0.3fr;
+  color: white;
+}
+button{
+  cursor: pointer;
+}
+.container-div{
+  display: grid;
+  grid-template-rows: 50px 45px 1fr;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid rgb(0, 0, 165);
+  background-color: rgb(0, 0, 62);
+  
+}
+.title-div{
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 62);
+}
+.input-create-div{
+  background-color: rgb(0, 0, 62);
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0px 3px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.input-bar{
+  height: 30px;
+  padding-left: 10px;
+  background-color: black;
+  border: solid rgb(0, 0, 104);
+  color: white;
+  border-radius: 5px;
+}
+.input-bar::placeholder{
+  color: rgba(255, 255, 255, 0.788);
+  font-family: Arial;
+}
+.create-button{
+  height: 35px;
+  border: none;
+  background-color: rgb(0, 0, 231);
+  color: white;
+  border-radius: 5px;
+}
+.main-div{
+  background-color: black;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  border-radius: 5px;
+}
+.main-p-div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(0, 0, 130);
+  border-radius: 5px;
+  
+}
+.display-sides{
+  margin: 5px 10px;
+}
+
+.result{
+  display: block;
+  font-size: 150px;
+  margin: 10px 0px;
+  padding: 0px;
+  transition: 1s;
+  
+}
+.js-div{
+  display: grid;
+  justify-content:center;
+  align-items: center;
+}
+.rollButton{
+  display: block;
+  margin: 10px 0px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(0, 0, 231);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
